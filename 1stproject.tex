@@ -1,12 +1,15 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage[utf8]{inputenc}
 
 \title{1stproject}
 \author{aboderosellan }
 \date{November 2019}
 
+%paquetes
 \usepackage{natbib}
-\usepackage{graphicx}
+\usepackage{graphicx} %para imágenes
+\usepackage{amsmath} %para cosas matemáticas
+%\usepackage{blindtext}
 
 \begin{document}
 
@@ -15,14 +18,40 @@
 \section{Introduction}
 \subsection{subtítulo uno}
 There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
-There is another theory which states that this has already happened.
+There is another theory which states that this has already happened
 
-\begin{figure}[h!] %[h!] means here, o sea de poner la imagen en esta parte
-\centering
-\includegraphics[scale=0.5]{spidey}
-\caption{Nuestro lider supremo Spiderman}
-\label{fig:spidey}
-\end{figure}
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+cell1 & cell2 & cell3\\
+\hline
+cell4 & cell5 & cell6\\
+\hline 
+cell7 & cell8 & cell9\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\textbf{jose}
+\textit{luis}
+\emph{hola}\\
+
+
+\chapter*{prólogo}
+\chapter{capitulo1}
+\chapter*{epílogo} %asterisco para no enumerar los capítulos
+
+\paragraph{Teorema 1:}
+pvto el que lo lea 
+%\begin{figure}[h!] %[h!] means here, o sea de poner la imagen en esta parte
+%\centering
+%\includegraphics[scale=0.5]{spidey}
+%\caption{Nuestro lider supremo Spiderman}
+%\label{fig:spidey}
+%\end{figure}
+
 
 \section{Conclusion}
 ``I always thought something was fundamentally wrong with the universe'' \ref{figure:spidey} \citep{adams1995hitchhiker}
